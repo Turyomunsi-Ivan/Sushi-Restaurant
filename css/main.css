@@ -2119,8 +2119,8 @@ html {
   margin-top: -2.5rem;
 }
 
-.-mt-20 {
-  margin-top: -5rem;
+.-mt-24 {
+  margin-top: -6rem;
 }
 
 .-mt-9 {
@@ -2175,12 +2175,12 @@ html {
   min-height: 100vh;
 }
 
-.w-1\/2 {
-  width: 50%;
-}
-
 .w-12 {
   width: 3rem;
+}
+
+.w-3\/4 {
+  width: 75%;
 }
 
 .w-52 {
@@ -2321,10 +2321,6 @@ html {
   padding: 2.5rem;
 }
 
-.p-20 {
-  padding: 5rem;
-}
-
 .p-3 {
   padding: 0.75rem;
 }
@@ -2344,6 +2340,11 @@ html {
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 .py-2 {
@@ -2522,6 +2523,10 @@ header {
     margin: 0 5rem;
     margin-bottom: 2rem;
   }
+
+  .check-btn {
+    width: 100%;
+  }
 }
 
 .hover\:bg-warmBoldOrangish:hover {
@@ -2548,6 +2553,10 @@ header {
   .sm\:my-auto {
     margin-top: auto;
     margin-bottom: auto;
+  }
+
+  .sm\:mb-20 {
+    margin-bottom: 5rem;
   }
 
   .sm\:w-full {
